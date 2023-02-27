@@ -1,0 +1,30 @@
+/* source: https://stackoverflow.com/questions/31954089/how-can-i-reuse-a-navigation-bar-on-multiple-pages */
+
+var footer = ` 
+<footer>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <div class="footer_icons">
+    <ul>
+      <li><a class="fa fa-youtube" href="https://youtube.com/@idvfpv"></a></li>
+      <li>
+        <a
+          class="fa fa-instagram"
+          href="https://www.instagram.com/idv.fpv/"
+        ></a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer_pages">
+    <ul>
+      <li><a href="/Website_FPV/index.html">Home</a></li>
+      <li><a href="/Website_FPV/contact.html">Support</a></li>
+      <li><a href="/Website_FPV/about.html">Team</a></li>
+    </ul>
+  </div>
+</footer>
+`;
+
+document.body.insertAdjacentHTML("beforeend", footer);
