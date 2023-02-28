@@ -1,0 +1,84 @@
+.hidden {
+  display: none;
+}
+.mreset {
+  margin: 0;
+}
+.preset {
+  padding: 0;
+}
+.pabs {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+
+.axm {
+  align-items: center;
+}
+.axs {
+  justify-content: center;
+}
+
+.hi {
+  height: inherit;
+}
+.h5 {
+  height: 5vh;
+}
+.h10 {
+  height: 10vh;
+}
+.h20 {
+  height: 20vh;
+}
+.h30 {
+  height: 30vh;
+}
+.h60 {
+  height: 60vh;
+}
+.h90 {
+  height: 90vh;
+}
+
+.h100 {
+  height: 90vh;
+}
+
+.wi {
+  width: inherit;
+}
+.w33 {
+  width: 33.333%;
+}
+.w50 {
+  width: 50%;
+}
+.w66 {
+  width: 66.666%;
+}
+
+.h20p {
+  height: 20%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.pad {
+  padding: 0 0 5rem 0;
+}
