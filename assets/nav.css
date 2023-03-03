@@ -1,0 +1,63 @@
+:root {
+  --col1: #21445f;
+  --col2: #082032;
+}
+
+.navbar {
+  background-color: var(--col2);
+  color: #ffffff;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 0 10px 30px; /*Padding for whole nav bar*/
+}
+
+.nav-links a {
+  color: inherit;
+  display: block;
+  padding: 10px; /*Padding for all nav buttons*/
+}
+
+.logo {
+  font-size: 32px;
+  justify-content: left;
+}
+
+.menu {
+  gap: 1em; /*Gap between nav buttons*/
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: var(--col1);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.dropdown_nav {
+  position: relative;
+}
+
+.dropdown {
+  background-color: var(--col1);
+  padding: 1em 0; /*padding for whole dropdown menu*/
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+  transform: translate(-25%);
+}
+
+.dropdown li {
+  padding: 0px 30px;
+  width: 8em;
+  text-align: center;
+  /* margi  n-bottom: 100px; */
+}
+
+.dropdown li:hover {
+  background-color: var(--col2);
+}
+
+.dropdown_nav:hover .dropdown {
+  display: block;
+}

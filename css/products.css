@@ -1,0 +1,8 @@
+/* Overwrites for ./css/card.css */
+.container {
+  max-width: 1000px;
+}
+
+.card {
+  flex-basis: calc(50% - 20px);
+}
